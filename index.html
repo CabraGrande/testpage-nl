@@ -1,4 +1,9 @@
-<!-- Embedded Service <-> LWC Wrapper -->
+<html lang="en">
+<head>
+  <title>Chat de prueba</title>
+</head>
+<body>
+  <!-- Embedded Service <-> LWC Wrapper -->
       <script>
           window.addEventListener("message", () => {
               var payload = event.data;
@@ -26,8 +31,8 @@
         .embeddedServiceHelpButton .helpButton .uiButton:focus {
          /* outline: 1px solid #5820D5 !important; */
         }
-	      
-	      
+
+
          @media only screen and (min-width: 48em) {
 	   .embeddedServiceHelpButton .helpButton .uiButton:hover::before,
 		 .embeddedServiceHelpButton .helpButton .uiButton:focus::before
@@ -35,7 +40,7 @@
 		border-radius: 50% !important; 
 	     }
 	 }
-  
+
 
         @font-face {
           font-family: 'Salesforce Sans' !important;
@@ -104,7 +109,7 @@
 	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
 		 outline: 1px solid #005290; 
-		
+
 	}
 </style>
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
@@ -159,3 +164,5 @@
 		initESW('https://service.force.com');
 	}
 </script>
+</body>
+</html>
